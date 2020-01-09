@@ -5,8 +5,8 @@ class NavBar extends Component {
   render() {
     return (
       <div className="NavBar">
-        <img src="./images/ironhack-logo" alt=""/>
-        <img src="./images/menu-top" alt=""/>
+        <img src="/images/ironhack-logo.svg"/>
+        <img src="/images/menu-top.svg"/>
       </div>
     )
   }

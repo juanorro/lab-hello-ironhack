@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar';
+import TextData from './TextData';
 import ButtonAw from './ButtonAw';
 import './UpApp.css';
 
@@ -8,7 +9,7 @@ class UpApp extends Component {
     return (
       <div className="UpApp">
         <NavBar/>
-        <Text/>
+        <TextData/>
         <ButtonAw/>
       </div>
     )
